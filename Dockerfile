@@ -1,4 +1,4 @@
-FROM harshpreets63/random:simple
+FROM ghcr.io/amirulandalib/mltb-alpine-docker:latest
 
 WORKDIR /usr/src/app
 COPY . .
